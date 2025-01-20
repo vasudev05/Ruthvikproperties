@@ -818,12 +818,12 @@ table{
       
     .thumbnail {
         position: relative;
-        width: 120%;
+        width: 100%;
         height: 80px;
     }
       
     .thumbnail img {
-        width: 120%;
+        width: 100%;
         height: 80px;
     }
       
@@ -837,8 +837,6 @@ table{
     }
       
     .video-info {
-        padding: 5px;
-        /* font-size: 18px; */
         background-color: #f8f8f8;
     }
     
