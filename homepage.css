@@ -975,10 +975,10 @@ table{
 
     .footer{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
         background-color: #D9D9D9;
         padding: 20px 30px;
-        gap: 20px;
     }
 
     .links img{
@@ -987,30 +987,32 @@ table{
     }
     
     .quick-link{
-        width: 50px;
+        width: 70px;
         display: flex;
         flex-direction: column;
         font-size: 6px;
     }
 
     .quick-link strong{
-        font-size: 5px;
+        font-size: 12px;
     }
     
     .quick-link a{
         color: black;
+        font-size: 12px;
     }
     
     .Company{
-        font-size: 6px;
+        font-size: 12px;
     }
     .input-group {
         display: flex;
         align-items: center;
     }
     .input {
-        min-width: 10px;
-        min-height: 10px;
+        margin-top: 5px;
+        min-width: 80px;
+        min-height: 15px;
         max-width: 50px;
         padding: 0 1rem;
         color: black;
@@ -1021,8 +1023,9 @@ table{
     }
     
     .button--submit {
-        min-width: 20px;
-        min-height: 10px;
+        margin-top: 5px;
+        min-width: 50px;
+        min-height: 15px;
         padding: 0em 1em;
         border: none;
         border-radius: 0 3px 3px 0;
@@ -1034,12 +1037,14 @@ table{
     }
 
     .Newspaper strong{
-        font-size: 5px;
+        font-size: 12px;
         margin: 0; 
         padding: 0px; 
     }
 
-    .pvt{display: flex;
+    .pvt{
+        padding-top: 0;
+        display: flex;
         font-size: 8px;
         text-align: center;
         align-items: center;
