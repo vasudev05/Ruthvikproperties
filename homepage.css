@@ -977,6 +977,7 @@ table{
         gap: 20px;
         background-color: #D9D9D9;
         padding: 20px 30px;
+        text-align: left;
     }
 
     .links img{
